@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.full {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    width: 35%;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.right {
+    width: 65%;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.contact, .skills, .languages {
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.experience, .education {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
